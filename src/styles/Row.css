@@ -1,0 +1,52 @@
+.row {
+  padding: 1rem;
+}
+.row__images {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 1rem;
+}
+
+.row__images::-webkit-scrollbar {
+  display: none;
+}
+
+.row__image {
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: contain;
+  margin: 0 0.2rem;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-out;
+  cursor: pointer;
+}
+
+.row__image:hover {
+  transform: scale(1.04);
+}
+.row__imageHot:hover {
+  transform: scale(1.07);
+}
+.row__images > div {
+  position: relative;
+}
+
+.row__ratings {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem 0.6rem;
+  border-radius: 50%;
+  color: #ffffff;
+  border: 1px solid slateblue;
+  text-align: center;
+}
+
+.row__ratings p {
+  width: 25px;
+}
+
+.hide {
+  display: none;
+}

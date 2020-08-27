@@ -1,0 +1,22 @@
+footer {
+  background-color: steelblue;
+  padding: 1rem;
+  letter-spacing: 0.2rem;
+  color: #121212;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 475px) {
+  footer {
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 325px) {
+  footer {
+    font-size: 12px;
+    padding: 1rem 0.5rem;
+  }
+}
