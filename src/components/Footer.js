@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        All rights reserved | made with <i className="fa fa-heart"></i> by {""}
+        <i className="fa fa-copyright"></i> 2020 | Made with{" "}
+        <i className="fa fa-heart"></i> by {""}
         <a href="http://rayced.com" target="_blank" rel="noopener noreferrer">
           ray
         </a>

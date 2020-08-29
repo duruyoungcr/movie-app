@@ -4,6 +4,7 @@
   align-items: center;
   position: relative;
   padding: 2rem;
+  z-index: 1;
 }
 
 .hero__info h1 {
@@ -42,7 +43,7 @@
 }
 
 .hero__button:hover {
-  background-color: steelblue;
+  background-color: slateblue;
 }
 
 @media (max-width: 900px) {
